@@ -116,8 +116,8 @@ def graph_high_temp():
     plt.xticks(rotation = 45) # Rotates X-Axis Ticks by 45-degrees
     plt.yticks(np.arange(0, 31, 5))
     plt.grid(color='#95a5a6', linestyle='--', linewidth=1, axis='y', alpha=0.7)
-    plt.show() 
     plt.savefig(f"/Users/paullack/Python/Seven-Day-Highs-{city}-{state}.pdf")
+    plt.show() 
 
 # main function
 def main():
